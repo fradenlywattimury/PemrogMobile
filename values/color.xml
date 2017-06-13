@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="devider_color">#d6d6d6</color>
+    <color name="title_color">#2d2d2d</color>
+    <color name="caption_color">#818181</color>
+    <color name="content_color">#2d2d2d</color>
+    <color name="splash_background">#1abc9c</color>
+    <color name="actionbar_title_color">#ffffff</color>
+    <color name="title_holiday_color">#c71919</color>
+    <color name="image_background_color">#ffffff</color>
+    
+</resources>

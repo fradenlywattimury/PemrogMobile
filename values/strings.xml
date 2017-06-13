@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Daily Workout Program</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start_workout">Mulai Workout</string>
+    <string name="workouts">Workouts</string>
+    <string name="programs">Programs</string>
+    <string name="add_to_programs">Tambahkan ke Programs</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="no_data_program">tidak ada data untuk hari ini</string>
+    <string name="no_data_workout">tidak ada data untuk workout</string>
+    <string name="workout">Workout</string>
+    <string name="pick_day">Pilih hari</string>
+    <string-array name="day_name">
+        <item >Minggu</item>
+        <item >Senin</item>
+        <item >Selasa</item>
+        <item >Rabu</item>
+        <item >Kamis</item>
+        <item >Jumat</item>
+        <item >Sabtu</item>
+    </string-array>
+    
+    <string name="add">Tambah</string>
+    <string name="cancel">Batal</string>
+    <string name="start">Mulai</string>
+    <string name="stop">Berhenti</string>
+    <string name="reset">Reset</string>
+    <string name="initial_time">00:00</string>
+    <string name="share_it">Bagikan</string>
+    <string name="rate_it">Rate</string>
+    <string name="about">Tentang</string>
+    <string name="subject">Fitness App: Aplikasi yang akan membantu Anda membangun otot Anda</string>
+    <string name="message">Download di Google Play:</string>
+    <string name="gplay_url">market://details?id=com.your.package</string>
+    <string name="gplay_web_url">https://play.google.com/store/apps/details?id=com.your.package</string>
+    <string name="share_via">Bagikan via</string>
+    <string name="description">Kelompok 9 \n Nama : \n Teuku Ampon N (14.11.7936) \n Muhammad Fadhli A (14.11.7967) \n Fradenly K Wattimury (14.11.7937) \n Muhammad Hasbi Assidiqi (14.11.7958)</string>
+    <string name="copyright"> </string>
+    <string name="select_option">Pilih opsi</string>
+    <string-array name="options">
+        <item >Memperbarui</item>
+        <item >Hapus</item>
+    </string-array>
+        <string name="options">Pilihan</string>
+        <string name="update">Memperbaharui</string>
+        <string name="delete">Hapus</string>
+        <string name="confirm">Confirm</string>
+        <string name="delete_message">Yakin ingin menghapus ini dari hari ini?</string>
+        <string name="workout_detail">Detail Workout</string>
+        <string name="stopwatch">Stopwatch</string>
+        <string name="about_app">Tentang App</string>
+        <string name="success_add">berhasil menambahkan workout ke</string>
+        <string name="failed_add">workout sudah ditambahkan ke</string>
+        <string name="success_delete">berhasil menghapus workout</string>
+        <string name="success_update">berhasil memperbaharui workout</string>
+</resources>
