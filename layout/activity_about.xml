@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    <TextView 
+	        android:id="@+id/txtTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/app_name"
+	        android:textSize="20sp"
+	        android:textColor="@color/title_color"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginBottom="25dp"/>
+	    <TextView 
+	        android:id="@+id/txtDescription"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/description"
+	        android:textSize="14sp"
+		    android:textColor="@color/content_color"
+		    android:lineSpacingExtra="5dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginBottom="15dp"/>
+	    <TextView 
+	        android:id="@+id/txtCopyright"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/copyright"
+	        android:textSize="14sp"
+	        android:autoLink="web"
+	        android:lineSpacingExtra="5dp"
+		    android:textColor="@color/caption_color"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginBottom="10dp"/>
+	</LinearLayout>
+</ScrollView>

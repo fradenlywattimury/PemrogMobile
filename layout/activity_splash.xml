@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@color/splash_background">
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+	<ImageView
+	    android:id="@+id/imgBlogName"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/logo"
+	    android:gravity="center"
+	    android:layout_marginBottom="5dp"/>
+	<ProgressBar 
+	    android:id="@+id/prgLoading"
+	    android:layout_width="160dp"
+	    android:layout_height="11dp"
+	    android:max="100"
+	    style="@android:style/Widget.ProgressBar.Horizontal"
+	    android:progressDrawable="@drawable/progress_horizontal_daily_workout_app"
+	    android:gravity="center"/>
+	</LinearLayout>
+</RelativeLayout>
